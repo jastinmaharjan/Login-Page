@@ -1,5 +1,4 @@
-
-body,html{
+  body,html{
     height: 100%;
     margin: 0%;
 }
@@ -8,8 +7,7 @@ body{
     height: 100%;
     background-position: center ;
     background-repeat: no-repeat ;
-
-    /* background-size: contain; */
+    overflow: hidden;
     background-size: 100% 100%;
 }
 .login{
@@ -28,10 +26,6 @@ input{
     
 
 }
-/* pass{
-    border-radius:10px;
-
-} */
 .pass{
     
     color: white;
