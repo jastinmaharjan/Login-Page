@@ -1,76 +1,88 @@
-  body,html{
-    height: 100%;
-    margin: 0%;
-}
-body{
-    background-image: url(wall.jpg);
-    height: 100%;
-    background-position: center ;
-    background-repeat: no-repeat ;
-    overflow: hidden;
-    background-size: 100% 100%;
-}
-.login{
-    color: white;
+  body,
+  html {
+      height: 100%;
+      margin: 0%;
+  }
 
-}
-.user{
-    color: white;
-    
-    
-}
-input{
-    border-radius:10px;
-    padding: 5px;
-    width: 250px;
-    
+  body {
+      background-image: url(wall.jpg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      background-size: 100% 100%;
+  }
 
-}
-.pass{
-    
-    color: white;
-}
+  .login {
+      color: white;
 
-.rem{
-    color: white;
-}
-pre{
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.p{
-    color: white;
-}
-.pa{
-    color: white;
-}
-.login{
-    width: 200px;
-    padding: 5px;
-    color: black;
-    font-weight: bold;
-    border-radius:10px;
-}
-.transbox{
-    margin: 5%;
-        /* background-color: wheat; */
-        background: rgba(158, 129, 129, 0.2);
-    
-        box-shadow: none;
-        /* border: 1px solid rgb(226, 217, 217); */
-        opacity: 1;    
-        border-radius:10px;
-        text-align: center;
-        width: fit-content;
-        padding: 5%;
-        margin-left: 32%;
-    }
-    .transbox h2{
-        margin:10%;
-        font-weight: bold;
-        color: white;
-        text-align: center;
-        font-size: 40px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font:bold;
-    }
+  }
+
+  .user {
+      color: white;
+
+
+  }
+
+  input {
+      border-radius: 10px;
+      padding: 5px;
+      width: 250px;
+
+
+  }
+
+  .pass {
+
+      color: white;
+  }
+
+  .rem {
+      color: white;
+  }
+
+  pre {
+      font-size: 16px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  .p {
+      color: white;
+  }
+
+  .pa {
+      color: white;
+  }
+
+  .login {
+      width: 200px;
+      padding: 5px;
+      color: black;
+      font-weight: bold;
+      border-radius: 10px;
+  }
+
+  .transbox {
+      margin: 5%;
+      /* background-color: wheat; */
+      background: rgba(158, 129, 129, 0.2);
+
+      box-shadow: none;
+      /* border: 1px solid rgb(226, 217, 217); */
+      opacity: 1;
+      border-radius: 10px;
+      text-align: center;
+      width: fit-content;
+      padding: 5%;
+      margin-left: 32%;
+  }
+
+  .transbox h2 {
+      margin: 10%;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      font-size: 40px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font: bold;
+  }
